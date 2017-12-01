@@ -5,9 +5,11 @@ A simple Python script that checks LM hashes on cracker.offensive-security.com. 
 
 1.) Create a list of LM hashes e.g.: lm_hashes.txt
 
-3b16d18d7bnb96db1aa818381e4e281a
-3b16d18d7bnb96db1aa818381e4e281a
-3b16d18d7bnb96db1aa818381e4e281a
+``` 1b16d18d7bnb96db1aa818381e4e281a ```
+
+``` 2b16d18d7bnb96db1aa818381e4e281a ```
+
+``` 3b16d18d7bnb96db1aa818381e4e281a ```
 
 2.) Edit crack.py and insert your priority code (you'll find it in your lab panel).
 
@@ -15,4 +17,4 @@ A simple Python script that checks LM hashes on cracker.offensive-security.com. 
 
 python crack.py lm_hashes.txt
 
-Hashes that are not known will be inserted cracking queue, just come back later then.
+Hashes that are not known will be inserted in the cracking queue, just come back later then.
